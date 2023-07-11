@@ -1,5 +1,4 @@
 # WQD7003
-Effects of COVID-19 Symptoms on Individuals' Healths
 
 Abstract : 
 
