@@ -1,0 +1,3 @@
+# Data
+
+Raw data was collected on year 2020, in which 2,500 records of clinical report were reported and labelled. It's a publicly available dataset that was found in (Github)[https://github.com/Simranpandey16/Covid-19-prediction]. Symptoms of previous cases of Covid-19 that have occurred in different nations around the world was collected and labelled for the purpose of predicting whether an individual is positive or negative.

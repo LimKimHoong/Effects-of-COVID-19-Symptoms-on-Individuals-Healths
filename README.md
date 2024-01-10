@@ -1,5 +1,33 @@
-# Effects of COVID-19 Symptoms on Individuals' Healths
+## Stock_price
 
-Abstract : 
+*[ TODO Add project description]*
 
-Covid-19 has stunned the whole globe due to its non-accessibility of any medication at the first place. Scientists and reseachers from all around the world are working in overcoming and controlling such virus. Data from this project was collected for 2,500 records of clinical reports, in which they are labeled and processed. A few number of supervised machine learning algorithms are being experimented and evaluated. We had utilised various ML models to predict the Covid-19 presence. Comparative analyses of different classifiers were accomplished in predicting the positive or negative cases. In short, we found out that we could have an accuracy of 92.4% for several model, such as LR, KNN, SVC, CART, GB, RF, and ET with Min-Max normalisation used for the dataset. On top of that, only three variables are considered important, which are Contact with Covid-19 patient, body pain and difficulty iin breathing in descending order of the importance. For better results and future work, further feature engineering is needed, and a deep learning approach may be used in the future.
+## How to Run
+
+First, make sure that you have [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/install.html) installed and install the project.
+
+```shell
+mkvirtualenv Stock_price
+pip install -e 'git+https://github.com/<github_account>/<repository_name>.git#egg=titanic'
+```
+
+> For a private repository accessible only through an SSH authentication, substitute `git+https://github.com` with `git+ssh://git@github.com`.
+
+*[ TODO Add instructions to run package scritps ]*
+
+## How to Contribute
+
+First, make sure that you have [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/install.html) installed and install the project in development mode.
+
+```shell
+mkvirtualenv Stock_price
+git clone https://github.com/<github_account>/<repository_name>.git
+cd Stock_price
+pip install -r requirements.txt
+pip install -e .
+pip freeze | grep -v titanic > requirements.txt
+```
+
+> For a private repository accessible only through an SSH authentication, substitute `https://github.com/` with `git@github.com:`.
+
+Then, create or select a GitHub branch and have fun... 
